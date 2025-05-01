@@ -3065,9 +3065,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@javascript-obfuscator/escodegen@npm:2.2.2":
-  version: 2.2.2
-  resolution: "@javascript-obfuscator/escodegen@npm:2.2.2"
+"@javascript-obfuscator/escodegen@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@javascript-obfuscator/escodegen@npm:2.3.0"
   dependencies:
     "@javascript-obfuscator/estraverse": ^5.3.0
     esprima: ^4.0.1
@@ -3077,18 +3077,11 @@ __metadata:
   dependenciesMeta:
     source-map:
       optional: true
-  checksum: 9ef5d57b8fd5d0ee2c49d88056c989a4d4533a08034c6fb268fa4a503ed97ad1ad09b2e3cfae19f910f0d86bae02129a60647d3c9ca25cf61c4d3d72b00be765
+  checksum: a7209d74540a99491dd62b509b09e8d6147dad2209666a394237c98d9657354c6ae0825b87c23372ed41d0ce8385b5420fd0fe087170a4d6e9e8ec2f198cb2c3
   languageName: node
   linkType: hard
 
-"@javascript-obfuscator/estraverse@npm:5.3.0":
-  version: 5.3.0
-  resolution: "@javascript-obfuscator/estraverse@npm:5.3.0"
-  checksum: ceaf9ac2edd926abcba317e8612913deb15a2568ca1706665e91b284efa51de58edbe3ddb72245ed028810d147446d4f4e5ff8ca8c25f62e740f63adc7112318
-  languageName: node
-  linkType: hard
-
-"@javascript-obfuscator/estraverse@npm:^5.3.0":
+"@javascript-obfuscator/estraverse@npm:5.4.0, @javascript-obfuscator/estraverse@npm:^5.3.0":
   version: 5.4.0
   resolution: "@javascript-obfuscator/estraverse@npm:5.4.0"
   checksum: 8b3342a549cc6e5a7fccd26323cc628cc76d8cd4196ebf5de4e3c59872d4cb1f550703de594899050bb2dc74903430165d0c5ed6297898ec17b498fe0321e219
@@ -4194,19 +4187,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/opencollective@npm:0.3.2":
-  version: 0.3.2
-  resolution: "@nuxtjs/opencollective@npm:0.3.2"
-  dependencies:
-    chalk: ^4.1.0
-    consola: ^2.15.0
-    node-fetch: ^2.6.1
-  bin:
-    opencollective: bin/opencollective.js
-  checksum: fd3737c12edf55b5c2279674664c3ed5e756410ea82e9cd324c3f0e032ed5ccd8df1959ec69ea97f2f1c9c33c884aae3d7a7108a73ea0faa90d74ea47cf364d4
-  languageName: node
-  linkType: hard
-
 "@opensdks/fetch-links@npm:0.0.17":
   version: 0.0.17
   resolution: "@opensdks/fetch-links@npm:0.0.17"
@@ -5286,7 +5266,7 @@ __metadata:
     browserify: ^17.0.0
     concurrently: ^8.2.1
     dotenv: ^16.3.1
-    javascript-obfuscator: ^2.10.3
+    javascript-obfuscator: ^4.1.1
     nodemon: ^3.0.1
     run-script-os: ^1.1.6
     typescript: 4.6.3
@@ -9026,10 +9006,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/validator@npm:^13.1.3":
-  version: 13.12.0
-  resolution: "@types/validator@npm:13.12.0"
-  checksum: 1d814a4a9f8fbd01f834bf45215aa8111879e71045391eec8e8fda6a7acf71d8b7839a0d312098c2b9c8285963203dfb3e3680a41484d1e9b3d576f95b6d71c0
+"@types/validator@npm:^13.11.8":
+  version: 13.12.3
+  resolution: "@types/validator@npm:13.12.3"
+  checksum: 91f959fa9205e0d6a5e413b4358190b3960d8aff7792805d747dbca2463aec1f290b4c94899b5f397824720142f496f30d53855ec141429b0403da1ef8d53335
   languageName: node
   linkType: hard
 
@@ -10586,12 +10566,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:8.5.0":
-  version: 8.5.0
-  resolution: "acorn@npm:8.5.0"
+"acorn@npm:8.8.2":
+  version: 8.8.2
+  resolution: "acorn@npm:8.8.2"
   bin:
     acorn: bin/acorn
-  checksum: 2e4c1dbed3da327684863debf31d341bf8882c6893c506653872c00977eee45675feb9129255d6c74c88424d2b20d889ca6de5b39776e5e3cccfc756b3ca1da8
+  checksum: f790b99a1bf63ef160c967e23c46feea7787e531292bb827126334612c234ed489a0dc2c7ba33156416f0ffa8d25bf2b0fdb7f35c2ba60eb3e960572bece4001
   languageName: node
   linkType: hard
 
@@ -12593,10 +12573,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chance@npm:1.1.8":
-  version: 1.1.8
-  resolution: "chance@npm:1.1.8"
-  checksum: e733f51e1094d7b0343a9e79f38599086442e6284fc2789cf9e072c71a0070874a1b340f9fffe4e66260899733f768cf113434be466ecb0016e3afcb60add3ee
+"chance@npm:1.1.9":
+  version: 1.1.9
+  resolution: "chance@npm:1.1.9"
+  checksum: 57d09fd404ffb87f5e106705c28c38a77cb0a6d96f3828d63052947a12d62d65f40a100d74b123bea3d5ebce3b53333a93d3b81783c64d8473788a0ce6b6e8db
   languageName: node
   linkType: hard
 
@@ -12762,14 +12742,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"class-validator@npm:0.13.1":
-  version: 0.13.1
-  resolution: "class-validator@npm:0.13.1"
+"class-validator@npm:0.14.1":
+  version: 0.14.1
+  resolution: "class-validator@npm:0.14.1"
   dependencies:
-    "@types/validator": ^13.1.3
-    libphonenumber-js: ^1.9.7
-    validator: ^13.5.2
-  checksum: 1d77f869792e83baef67d18220baf1e1a413a43efbd454ed359e0da691462e6d7d869e73de3ce5bb4a67206084338e5e4323e9e54dd8bc967c6fadb4e9ac44c2
+    "@types/validator": ^13.11.8
+    libphonenumber-js: ^1.10.53
+    validator: ^13.9.0
+  checksum: bea808145c81ba3b185e1174d92f97a2d6ffef0558261217042552e9027222eadb9a9731a4418a07eaaa72ac334347df7a1079ff48eaadaa3ee6848a6a88995c
   languageName: node
   linkType: hard
 
@@ -13167,17 +13147,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:10.0.0":
+  version: 10.0.0
+  resolution: "commander@npm:10.0.0"
+  checksum: 9f6495651f878213005ac744dd87a85fa3d9f2b8b90d1c19d0866d666bda7f735adfd7c2f10dfff345782e2f80ea258f98bb4efcef58e4e502f25f883940acfd
+  languageName: node
+  linkType: hard
+
 "commander@npm:11.0.0":
   version: 11.0.0
   resolution: "commander@npm:11.0.0"
   checksum: 6621954e1e1d078b4991c1f5bbd9439ad37aa7768d6ab4842de1dbd4d222c8a27e1b8e62108b3a92988614af45031d5bb2a2aaa92951f4d0c934d1a1ac564bb4
-  languageName: node
-  linkType: hard
-
-"commander@npm:8.2.0":
-  version: 8.2.0
-  resolution: "commander@npm:8.2.0"
-  checksum: e868805bc266777f7a9c8a740e15b9e02b8148d8251f577ea9b9ef373ac0bdeb77b9b60cfc033592c9e1affea89993be08c13c623f0c619f9bf152c0e4d12cb0
   languageName: node
   linkType: hard
 
@@ -13325,13 +13305,6 @@ __metadata:
   version: 2.0.0
   resolution: "connect-history-api-fallback@npm:2.0.0"
   checksum: dc5368690f4a5c413889792f8df70d5941ca9da44523cde3f87af0745faee5ee16afb8195434550f0504726642734f2683d6c07f8b460f828a12c45fbd4c9a68
-  languageName: node
-  linkType: hard
-
-"consola@npm:^2.15.0":
-  version: 2.15.3
-  resolution: "consola@npm:2.15.3"
-  checksum: 8ef7a09b703ec67ac5c389a372a33b6dc97eda6c9876443a60d76a3076eea0259e7f67a4e54fd5a52f97df73690822d090cf8b7e102b5761348afef7c6d03e28
   languageName: node
   linkType: hard
 
@@ -16057,13 +16030,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-scope@npm:6.0.0":
-  version: 6.0.0
-  resolution: "eslint-scope@npm:6.0.0"
+"eslint-scope@npm:7.1.1":
+  version: 7.1.1
+  resolution: "eslint-scope@npm:7.1.1"
   dependencies:
     esrecurse: ^4.3.0
     estraverse: ^5.2.0
-  checksum: 3f1b3578f288c3820f68ad2aae102300e546be8a98a958f515405dc20cc2fe64fda583d364977628bb14fe3d4f96f37de5e9bc5d6eb26bc310da33ba2a677dc3
+  checksum: 9f6e974ab2db641ca8ab13508c405b7b859e72afe9f254e8131ff154d2f40c99ad4545ce326fd9fde3212ff29707102562a4834f1c48617b35d98c71a97fbf3e
   languageName: node
   linkType: hard
 
@@ -16084,6 +16057,13 @@ __metadata:
     esrecurse: ^4.3.0
     estraverse: ^5.2.0
   checksum: ec97dbf5fb04b94e8f4c5a91a7f0a6dd3c55e46bfc7bbcd0e3138c3a76977570e02ed89a1810c778dcd72072ff0e9621ba1379b4babe53921d71e2e4486fda3e
+  languageName: node
+  linkType: hard
+
+"eslint-visitor-keys@npm:3.3.0":
+  version: 3.3.0
+  resolution: "eslint-visitor-keys@npm:3.3.0"
+  checksum: d59e68a7c5a6d0146526b0eec16ce87fbf97fe46b8281e0d41384224375c4e52f5ffb9e16d48f4ea50785cde93f766b0c898e31ab89978d88b0e1720fbfb7808
   languageName: node
   linkType: hard
 
@@ -18521,10 +18501,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inversify@npm:5.1.1":
-  version: 5.1.1
-  resolution: "inversify@npm:5.1.1"
-  checksum: 22d201647b572024333c58bed8ac929da4724a4c0c8a261ecc261a180afcb899359013fafb8d87ce4d606000149fb4590dc5c8278b9feb544a5f69a6159e4ffb
+"inversify@npm:6.0.1":
+  version: 6.0.1
+  resolution: "inversify@npm:6.0.1"
+  checksum: b6c9b56ef7817a71534b06101c2b0a0130b67c47a769f58794d9c0643591a83ac02be30a48c00cb729c0c83ece96dde369c419d48c32d0201c6cc7407629fbc5
   languageName: node
   linkType: hard
 
@@ -19433,35 +19413,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"javascript-obfuscator@npm:^2.10.3":
-  version: 2.19.1
-  resolution: "javascript-obfuscator@npm:2.19.1"
+"javascript-obfuscator@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "javascript-obfuscator@npm:4.1.1"
   dependencies:
-    "@javascript-obfuscator/escodegen": 2.2.2
-    "@javascript-obfuscator/estraverse": 5.3.0
-    "@nuxtjs/opencollective": 0.3.2
-    acorn: 8.5.0
+    "@javascript-obfuscator/escodegen": 2.3.0
+    "@javascript-obfuscator/estraverse": 5.4.0
+    acorn: 8.8.2
     assert: 2.0.0
     chalk: 4.1.2
-    chance: 1.1.8
-    class-validator: 0.13.1
-    commander: 8.2.0
-    eslint-scope: 6.0.0
+    chance: 1.1.9
+    class-validator: 0.14.1
+    commander: 10.0.0
+    eslint-scope: 7.1.1
+    eslint-visitor-keys: 3.3.0
     fast-deep-equal: 3.1.3
-    inversify: 5.1.1
+    inversify: 6.0.1
     js-string-escape: 1.0.1
     md5: 2.3.0
-    mkdirp: 1.0.4
+    mkdirp: 2.1.3
     multimatch: 5.0.0
+    opencollective-postinstall: 2.0.3
     process: 0.11.10
     reflect-metadata: 0.1.13
-    source-map-support: 0.5.20
+    source-map-support: 0.5.21
     string-template: 1.0.0
     stringz: 2.1.0
-    tslib: 2.3.1
+    tslib: 2.5.0
   bin:
     javascript-obfuscator: bin/javascript-obfuscator
-  checksum: b1c47475fc163aa1ca89250b244d757cbf75a6999aafc540475a882b8e9e0ddf563d43a4f4ae4190bc71939bde4e3f661a64c42c770ff1cf77f64b6a0c60d339
+  checksum: b17104f96db5f0aa963007e5163acae26d729af8779340db4128ac92034ff41363f91425c132dfe4e72b543d91fc7f4364e3d463a2efd1216448e54a0df1be51
   languageName: node
   linkType: hard
 
@@ -20994,10 +20975,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"libphonenumber-js@npm:^1.9.7":
-  version: 1.11.4
-  resolution: "libphonenumber-js@npm:1.11.4"
-  checksum: c5b2ffe64ab4d035467048723d57ff9312beb91afbb247fb7a3b7e837f4cd4c81d4e1fa65e5de4c729e0520a340585a24a9426e6bb92e946623a3c81f0fb05ac
+"libphonenumber-js@npm:^1.10.53":
+  version: 1.12.6
+  resolution: "libphonenumber-js@npm:1.12.6"
+  checksum: 98ae28d3c8709f6e2c75396178b45b11bea47cd0638f2165170b4a32dd1ba911fdee9a51dd19d1f19feaa5d10faff4554d4ff96caa1341e77d3a7b3796f20e5e
   languageName: node
   linkType: hard
 
@@ -22007,12 +21988,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mkdirp@npm:1.0.4, mkdirp@npm:^1.0.3, mkdirp@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "mkdirp@npm:1.0.4"
+"mkdirp@npm:2.1.3":
+  version: 2.1.3
+  resolution: "mkdirp@npm:2.1.3"
   bin:
-    mkdirp: bin/cmd.js
-  checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
+    mkdirp: dist/cjs/src/bin.js
+  checksum: 5d7d7997e38a962e8b66dd4db1974bdcb841f084531ba8c9e1f3d52d71f5e6639677a96b2eb5d5940406d729a2153d820f396077ed3a6716058d3e75041dc1f2
   languageName: node
   linkType: hard
 
@@ -22024,6 +22005,15 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: 0c91b721bb12c3f9af4b77ebf73604baf350e64d80df91754dc509491ae93bf238581e59c7188360cec7cb62fc4100959245a42cfe01834efedc5e9d068376c2
+  languageName: node
+  linkType: hard
+
+"mkdirp@npm:^1.0.3, mkdirp@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "mkdirp@npm:1.0.4"
+  bin:
+    mkdirp: bin/cmd.js
+  checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
   languageName: node
   linkType: hard
 
@@ -22907,6 +22897,15 @@ __metadata:
   dependencies:
     yaml: ^2.2.2
   checksum: 019a66f4195966bf58ee29f913b91e39975616458fdb40a15507a3b3e338eacfc882def0dda1a5001edf962e382ed6f46c8a0d40684adcccb868960267df30d9
+  languageName: node
+  linkType: hard
+
+"opencollective-postinstall@npm:2.0.3":
+  version: 2.0.3
+  resolution: "opencollective-postinstall@npm:2.0.3"
+  bin:
+    opencollective-postinstall: index.js
+  checksum: 0a68c5cef135e46d11e665d5077398285d1ce5311c948e8327b435791c409744d4a6bb9c55bd6507fb5f2ef34b0ad920565adcdaf974cbdae701aead6f32b396
   languageName: node
   linkType: hard
 
@@ -27078,17 +27077,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-support@npm:0.5.20":
-  version: 0.5.20
-  resolution: "source-map-support@npm:0.5.20"
-  dependencies:
-    buffer-from: ^1.0.0
-    source-map: ^0.6.0
-  checksum: 43946aff452011960d16154304b11011e0185549493e65dd90da045959409fb2d266ba1c854fff3d5949f8e59382e3fcc7f7c5fa66136007a6750ad06c6c0baa
-  languageName: node
-  linkType: hard
-
-"source-map-support@npm:^0.5.12, source-map-support@npm:^0.5.16, source-map-support@npm:^0.5.6, source-map-support@npm:~0.5.12, source-map-support@npm:~0.5.20":
+"source-map-support@npm:0.5.21, source-map-support@npm:^0.5.12, source-map-support@npm:^0.5.16, source-map-support@npm:^0.5.6, source-map-support@npm:~0.5.12, source-map-support@npm:~0.5.20":
   version: 0.5.21
   resolution: "source-map-support@npm:0.5.21"
   dependencies:
@@ -28841,17 +28830,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.3.1":
-  version: 2.3.1
-  resolution: "tslib@npm:2.3.1"
-  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
-  languageName: node
-  linkType: hard
-
 "tslib@npm:2.4.1":
   version: 2.4.1
   resolution: "tslib@npm:2.4.1"
   checksum: 19480d6e0313292bd6505d4efe096a6b31c70e21cf08b5febf4da62e95c265c8f571f7b36fcc3d1a17e068032f59c269fab3459d6cd3ed6949eafecf64315fca
+  languageName: node
+  linkType: hard
+
+"tslib@npm:2.5.0":
+  version: 2.5.0
+  resolution: "tslib@npm:2.5.0"
+  checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
   languageName: node
   linkType: hard
 
@@ -29777,10 +29766,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"validator@npm:^13.5.2, validator@npm:^13.7.0":
+"validator@npm:^13.7.0":
   version: 13.12.0
   resolution: "validator@npm:13.12.0"
   checksum: fb8f070724770b1449ea1a968605823fdb112dbd10507b2802f8841cda3e7b5c376c40f18c84e6a7b59de320a06177e471554101a85f1fa8a70bac1a84e48adf
+  languageName: node
+  linkType: hard
+
+"validator@npm:^13.9.0":
+  version: 13.15.0
+  resolution: "validator@npm:13.15.0"
+  checksum: 0d1faacb802336e69fafde33723b6de8e1833d1a3ec2b5202ffc69b95c8140db6d4728760026d738243d706cd324ea84808deea2ed647f571a3171d03ade8031
   languageName: node
   linkType: hard
 
