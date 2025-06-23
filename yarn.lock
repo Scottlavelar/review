@@ -4307,6 +4307,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prisma/config@npm:6.10.1":
+  version: 6.10.1
+  resolution: "@prisma/config@npm:6.10.1"
+  dependencies:
+    jiti: 2.4.2
+  checksum: 3b93857b74be9ea240af02ab15e1940f302b6aa823e9305c6d1a41a4c40bc2771053f4324b7b5602330ec0e3f989702688e7360fbf3efa66b6dd5c37af9958ef
+  languageName: node
+  linkType: hard
+
+"@prisma/debug@npm:6.10.1":
+  version: 6.10.1
+  resolution: "@prisma/debug@npm:6.10.1"
+  checksum: 6bbb1ffb5ea237c44f359b0c1e8a94d8130f13050d2ad4e75bd486caa4f2611ba160330fd09eba0a6050815e639dda12812e44b04d148081a6e145288e614648
+  languageName: node
+  linkType: hard
+
 "@prisma/engines-version@npm:4.16.1-1.4bc8b6e1b66cb932731fb1bdbbc550d1e010de81":
   version: 4.16.1-1.4bc8b6e1b66cb932731fb1bdbbc550d1e010de81
   resolution: "@prisma/engines-version@npm:4.16.1-1.4bc8b6e1b66cb932731fb1bdbbc550d1e010de81"
@@ -4314,10 +4330,42 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:4.16.2":
-  version: 4.16.2
-  resolution: "@prisma/engines@npm:4.16.2"
-  checksum: f423e6092c3e558cd089a68ae87459fba7fd390c433df087342b3269c3b04163965b50845150dfe47d01f811781bfff89d5ae81c95ca603c59359ab69ebd810f
+"@prisma/engines-version@npm:6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c":
+  version: 6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c
+  resolution: "@prisma/engines-version@npm:6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c"
+  checksum: ccad279861502f0e68de03ae558592a1b5333a1ec331316c09ef7bf9cb0055cb6dc7d1c585a27057a32381e87893f764cb533de1b2a6320889aff9d42629b48b
+  languageName: node
+  linkType: hard
+
+"@prisma/engines@npm:6.10.1":
+  version: 6.10.1
+  resolution: "@prisma/engines@npm:6.10.1"
+  dependencies:
+    "@prisma/debug": 6.10.1
+    "@prisma/engines-version": 6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c
+    "@prisma/fetch-engine": 6.10.1
+    "@prisma/get-platform": 6.10.1
+  checksum: 359758a00e2ecccc16109a71e6260a61b278dd94278ecfabd0de6dec61101e4d71d9a6ebbe8878e712c862051a38681df39eaff26529af13b84c0d18478149e9
+  languageName: node
+  linkType: hard
+
+"@prisma/fetch-engine@npm:6.10.1":
+  version: 6.10.1
+  resolution: "@prisma/fetch-engine@npm:6.10.1"
+  dependencies:
+    "@prisma/debug": 6.10.1
+    "@prisma/engines-version": 6.10.1-1.9b628578b3b7cae625e8c927178f15a170e74a9c
+    "@prisma/get-platform": 6.10.1
+  checksum: d21116644e2199d64fa246865eb814e517c2c94d08d52747c34edb06c4df3fe811d76ae56c8606e53d7fbe0bdbc37bb50aa6afe10bed37640faa8f7cdef30fa7
+  languageName: node
+  linkType: hard
+
+"@prisma/get-platform@npm:6.10.1":
+  version: 6.10.1
+  resolution: "@prisma/get-platform@npm:6.10.1"
+  dependencies:
+    "@prisma/debug": 6.10.1
+  checksum: ca52e9da98e95ddfa3ba508aadd82235be741197f9edbf5fea1d6235a840ac615eb173cef00fbfa8c50b3eedacc57df5dd45f7c887c3c0ed755fc71fad4abb92
   languageName: node
   linkType: hard
 
@@ -5263,7 +5311,7 @@ __metadata:
     morgan: ^1.10.0
     node-cron: ^3.0.2
     oauth: ^0.10.0
-    prisma: ^4.16.0
+    prisma: ^6.10.1
     rate-limiter-flexible: ^5.0.3
     redis: ^4.6.8
     svix: ^1.14.0
@@ -20537,6 +20585,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jiti@npm:2.4.2":
+  version: 2.4.2
+  resolution: "jiti@npm:2.4.2"
+  bin:
+    jiti: lib/jiti-cli.mjs
+  checksum: c6c30c7b6b293e9f26addfb332b63d964a9f143cdd2cf5e946dbe5143db89f7c1b50ad9223b77fb1f6ddb0b9c5ecef995fea024ecf7d2861d285d779cde66e1e
+  languageName: node
+  linkType: hard
+
 "jiti@npm:^1.21.0":
   version: 1.21.6
   resolution: "jiti@npm:1.21.6"
@@ -24641,15 +24698,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:^4.16.0":
-  version: 4.16.2
-  resolution: "prisma@npm:4.16.2"
+"prisma@npm:^6.10.1":
+  version: 6.10.1
+  resolution: "prisma@npm:6.10.1"
   dependencies:
-    "@prisma/engines": 4.16.2
+    "@prisma/config": 6.10.1
+    "@prisma/engines": 6.10.1
+  peerDependencies:
+    typescript: ">=5.1.0"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
   bin:
     prisma: build/index.js
-    prisma2: build/index.js
-  checksum: 1d0ed616abd7f8de22441e333b976705f1cb05abcb206965df3fc6a7ea03911ef467dd484a4bc51fdc6cff72dd9857b9852be5f232967a444af0a98c49bfdb76
+  checksum: 2e94bec56720a66b3763f51a8502f63fdd82ad369c1319f546b30a5ed12d8f57eb75e2f9caa97b271af164be3f4e63f0b24ac13c0b561831e9f2432208a2441d
   languageName: node
   linkType: hard
 
